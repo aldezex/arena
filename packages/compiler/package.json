@@ -1,0 +1,32 @@
+{
+  "name": "arena-compiler",
+  "version": "0.0.0",
+  "description": "Easy web apps",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "bunx bun index.ts",
+    "build": "bunx bun index.ts --build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aldezex/arena.git",
+    "directory": "packages/compiler"
+  },
+  "keywords": [
+    "UI",
+    "framework",
+    "templates",
+    "compiler",
+    "web"
+  ],
+  "author": "aldezex",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aldezex/arena/issues"
+  },
+  "homepage": "https://github.com/aldezex/arena#readme",
+  "devDependencies": {
+    "bun-types": "latest",
+    "typescript": "^5.2.2"
+  }
+}
